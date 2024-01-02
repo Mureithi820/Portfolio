@@ -2,14 +2,13 @@ import React from "react";
 import "./footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <footer>
       {/* eslint-disable-next-line */}
       <a href="#" className="footer__logo">
-        Ademir Alijagic
+        Victor Mureithi
       </a>
       <ul className="permalinks">
         <li>
@@ -33,18 +32,15 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/ademiralijagic/">
+        <a href="https://www.linkedin.com/in/victor-mureithi-97b469294/">
           <BsLinkedin />
         </a>
-        <a href="https://github.com/Ade-mir">
+        <a href="https://github.com/Mureithi820">
           <FaGithub />
-        </a>
-        <a href="https://www.youtube.com/@howtobecomeadeveloper">
-          <BsYoutube />
         </a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; Ademir Alijagic. All rights reserved</small>
+        <small>&copy; Victor Mureithi. All rights reserved</small>
       </div>
     </footer>
   );

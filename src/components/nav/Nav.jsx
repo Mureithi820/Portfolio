@@ -12,12 +12,13 @@ const Nav = () => {
   return (
     <nav>
       <a
-        href="#"
+        href="/"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>
+
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
