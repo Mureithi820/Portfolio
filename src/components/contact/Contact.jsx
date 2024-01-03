@@ -9,16 +9,16 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_jxtv4xm",
-        "template_gnxwcoq",
-        e.target,
-        "8y4tCAA_-K1JlPEk8"
-      )
-      .then(() => {
-        setEmailIsSent(true);
-      });
+    const { name, message } = e.target.elements;
+
+    const mailtoLink = `mailto:victormureithig@gmail.com?subject=New Contact Form Submission&body=Name: ${name.value}%0AMessage: ${message.value}`;
+
+    window.location.href = mailtoLink;
+
+    // If you want to set emailIsSent to true after sending the email, uncomment the next line
+    setTimeout(() => {
+      setEmailIsSent(true);
+    }, 10000);
   };
 
   return (

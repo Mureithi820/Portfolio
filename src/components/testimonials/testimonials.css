@@ -18,6 +18,36 @@
   padding: 2rem;
   border-radius: 2rem;
   user-select: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out 0.5s;
+}
+.testimonial--active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.testimonial--inactive {
+  visibility: hidden;
+  position: absolute;
+}
+
+.indicators {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.indicator--active {
+  background-color: var(--color-primary-variant);
 }
 
 .coworker__review {
@@ -32,6 +62,28 @@
   background: var(--color-primary);
 }
 
+.PaginationButton {
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.PaginationButton:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+/* Buttons styles */
+.Buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
   .container.testiomonials__container {

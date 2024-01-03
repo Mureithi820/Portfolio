@@ -19,7 +19,7 @@ header {
 }
 
 /* HEADER SOCIALS */
-.header__socials {
+.header_socials {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,15 +29,16 @@ header {
   bottom: 3rem;
 }
 
-.header__socials::after {
+.header_socials::after {
   content: "";
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
+  display: none;
 }
 
-/* ADEMIR */
-.ademir {
+/* VICTOR */
+.victor {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 30rem;
