@@ -1,13 +1,16 @@
 .about__container {
   display: grid;
+
   grid-template-columns: 35% 50%;
   gap: 15%;
 }
 
 .about__me {
   width: 100%;
+  height: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
+  overflow: hidden;
   background: linear-gradient(
     45deg,
     transparent,
@@ -19,12 +22,18 @@
 }
 
 .about__me-image {
+  width: 100%;
+  height: 100%;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
 }
-
+.about__me-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .about__me-image:hover {
   transform: rotate(0);
 }

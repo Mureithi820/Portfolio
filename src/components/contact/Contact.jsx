@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [emailIsSent, setEmailIsSent] = useState(false);

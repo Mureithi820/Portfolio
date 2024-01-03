@@ -1,11 +1,11 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/brights-lite.png";
-import IMG2 from "../../assets/blog.png";
-import IMG3 from "../../assets/calculator.png";
-import IMG4 from "../../assets/brochure.png";
-import IMG5 from "../../assets/Portfolio3.png";
-import IMG6 from "../../assets/Portfolio4.png";
+import IMG1 from "../../assets/wild-oasis.jpeg";
+import IMG2 from "../../assets/pizzabox.jpeg";
+import IMG3 from "../../assets/Travel-list.jpeg";
+import IMG4 from "../../assets/worldwise.jpeg";
+import IMG5 from "../../assets/react quiz.jpeg";
+import IMG6 from "../../assets/weather app.jpeg";
 
 const data = [
   {

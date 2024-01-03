@@ -2,11 +2,11 @@
 
 import React, { useEffect, useState } from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/bastian.jpg";
-import AVTR2 from "../../assets/marie.jpg";
-import AVTR3 from "../../assets/ksenia.jpg";
-import AVTR4 from "../../assets/iselin.jpg";
-import AVTR5 from "../../assets/balraj.jpg";
+import AVTR1 from "../../assets/bastian.png";
+import AVTR2 from "../../assets/marie.png";
+import AVTR3 from "../../assets/ksenia.png";
+import AVTR4 from "../../assets/iselin.png";
+import AVTR5 from "../../assets/balraj.png";
 
 // import required modules
 // import { Pagination } from "swiper";
@@ -69,7 +69,9 @@ const Testimonials = () => {
           <div
             key={index}
             className={`testimonial ${
-              index === currentIndex ? "testimonial--active" : "testimonial--inactive"
+              index === currentIndex
+                ? "testimonial--active"
+                : "testimonial--inactive"
             }`}
           >
             <div className="coworker-avatar">
