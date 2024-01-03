@@ -22,31 +22,31 @@ const data = [
     avatar: AVTR1,
     name: "Bastian",
     review:
-      "Victor comes up with ideas easily, and his ability to question the status quo is impressive. In our daily work, he drives our team not only with constant contribution but also with his visionary mind.",
+      "Victor has a remarkable ability to challenge the established quo and generates ideas with ease. He inspires our team in the course of our everyday work not only with his unwavering contributions but also with his creative ideas.",
   },
   {
     avatar: AVTR2,
     name: "Marie",
     review:
-      "We worked closely in a team over a period of four months, and I couldn't have asked for a better partner! Victor is extremely dedicated and always asks the right questions to be on the right track.",
+      "Over the course of three months, we worked closely as a team, and I couldn't have wished for a greater partner! Victor is incredibly committed and makes sure to ask the right questions to stay on course.",
   },
   {
     avatar: AVTR3,
-    name: "Ksenia",
+    name: "Carol",
     review:
-      "I had the pleasure of working with Victor on an extensive project, and Victor is very tidy, structured, and keen to find good solutions for problems. For me, he has been a good partner, and I have benefited a lot from discussing with him.",
+      "Victor is very organized, neat, and eager to find good solutions for problems. I had the pleasure of working with him on a large project.",
   },
   {
     avatar: AVTR4,
-    name: "Iselin",
+    name: "Bakhita",
     review:
-      "I worked with Victor on a challenging trend analysis project. I would describe him as solution-oriented and adaptable. Last but not least, he is creative, good at design, and a great collaborator!",
+      "Victor and I collaborated on a difficult trend analysis research. He is adaptive and solution-focused, in my opinion. Not to mention, he is a fantastic collaborator, creative, and skilled designer.",
   },
   {
     avatar: AVTR5,
     name: "Balraj",
     review:
-      "I had the pleasure of working with Victor on a very challenging project! He is good at finding simple and creative solutions to complex challenges. He is also very helpful, motivated, and has great work capacity.",
+      "Victor and I collaborated on a really difficult assignment, which was enjoyable! He excels at solving difficult problems in a straightforward and original way. Additionally, he is highly capable, driven, and helpful.",
   },
 ];
 
