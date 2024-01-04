@@ -54,7 +54,7 @@ const data = [
     image: IMG6,
     title: "Crimson weather app",
     github: "https://github.com/Ade-mir/animated-head-portfolio",
-    demo: "https://github.com/Mureithi820/crimson-weather",
+    demo: "https://thriving-florentine-4cab98.netlify.app/",
     brief: "https://github.com/Mureithi820/crimson-weather/blob/main/README.md",
   },
 ];
