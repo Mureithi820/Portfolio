@@ -4,14 +4,15 @@ import IMG1 from "../../assets/wild-oasis.jpeg";
 import IMG2 from "../../assets/pizzabox.jpeg";
 import IMG3 from "../../assets/Travel-list.jpeg";
 import IMG4 from "../../assets/worldwise.jpeg";
-import IMG5 from "../../assets/react quiz.jpeg";
+// import IMG5 from "../../assets/react quiz.jpeg";
 import IMG6 from "../../assets/weather app.jpeg";
+import IMG7 from "../../assets/Nightin.jpeg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Wild Oasis Resort platform",
+    title: "Wild Oasis Resort ",
     github: "https://github.com/Mureithi820/The-wild-oasis",
     demo: "https://bleach-oasis.netlify.app/",
     brief: "https://github.com/Mureithi820/The-wild-oasis/blob/main/README.md",
@@ -21,7 +22,7 @@ const data = [
     image: IMG2,
     title: "Fast React Pizza ",
     github: "https://github.com/Mureithi820/fast-react-pizza",
-    demo: "https://classy-naiad-4fd59a.netlify.app/",
+    demo: "https://pizzafast.netlify.app/",
     brief:
       "https://github.com/Mureithi820/fast-react-pizza/blob/main/README.md",
   },
@@ -37,25 +38,33 @@ const data = [
     id: 4,
     image: IMG4,
     title: "WorldWise",
-    github: "https://github.com/Ade-mir/brochure-site",
-    demo: "https://comfy-crostata-d9f4f5.netlify.app/",
+    github: "https://github.com/Mureithi820/Worldwise",
+    demo: "https://worldweiss.netlify.app/",
     brief: "https://github.com/Mureithi820/Worldwise/blob/main/README.md",
   },
-  {
-    id: 5,
-    image: IMG5,
-    title: "React Quiz App",
-    github: "https://github.com/Mureithi820/Quiz-app",
-    demo: "https://warm-valkyrie-0b0467.netlify.app",
-    brief: "https://github.com/Mureithi820/Quiz-app/edit/main/README.md",
-  },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: "React Quiz App",
+  //   github: "https://github.com/Mureithi820/Quiz-app",
+  //   demo: "https://reactquizkjj.netlify.app/",
+  //   brief: "https://github.com/Mureithi820/Quiz-app/edit/main/README.md",
+  // },
   {
     id: 6,
     image: IMG6,
     title: "Crimson weather app",
-    github: "https://github.com/Ade-mir/animated-head-portfolio",
-    demo: "https://thriving-florentine-4cab98.netlify.app/",
+    github: "https://github.com/Mureithi820/crimson-weather",
+    demo: "https://crimson-weather.netlify.app/",
     brief: "https://github.com/Mureithi820/crimson-weather/blob/main/README.md",
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: "NightIn ",
+    github: "https://github.com/Mureithi820/nightin",
+    demo: "https://nightin.netlify.app/",
+    brief: "https://github.com/Mureithi820/nightin/blob/main/README.md",
   },
 ];
 
