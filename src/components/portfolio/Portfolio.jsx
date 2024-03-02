@@ -7,6 +7,8 @@ import IMG4 from "../../assets/worldwise.jpeg";
 // import IMG5 from "../../assets/react quiz.jpeg";
 import IMG6 from "../../assets/weather app.jpeg";
 import IMG7 from "../../assets/Nightin.jpeg";
+import IMG8 from "../../assets/Natours.jpeg";
+import IMG9 from "../../assets/Trillo.jpeg";
 
 const data = [
   {
@@ -65,6 +67,22 @@ const data = [
     github: "https://github.com/Mureithi820/nightin",
     demo: "https://nightin.netlify.app/",
     brief: "https://github.com/Mureithi820/nightin/blob/main/README.md",
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: "Natours landing page ",
+    github: "https://github.com/Mureithi820/Natours-v2",
+    demo: "https://bleach-natours.netlify.app/",
+    brief: "https://github.com/Mureithi820/Natours-v2/blob/main/README.md",
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: "Trillo ",
+    github: "https://github.com/Mureithi820/Trillo",
+    demo: "https://darling-entremet-0e38f3.netlify.app/",
+    brief: "https://github.com/Mureithi820/Trillo/blob/main/README.md",
   },
 ];
 
