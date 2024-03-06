@@ -32,13 +32,13 @@ const data = [
   },
   {
     avatar: AVTR3,
-    name: "Carol",
+    name: "Tenza",
     review:
       "Victor is very organized, neat, and eager to find good solutions for problems. I had the pleasure of working with him on a large project.",
   },
   {
     avatar: AVTR4,
-    name: "Bakhita",
+    name: "Lucy",
     review:
       "Victor and I collaborated on a difficult trend analysis research. He is adaptive and solution-focused, in my opinion. Not to mention, he is a fantastic collaborator, creative, and skilled designer.",
   },
