@@ -9,6 +9,7 @@ import IMG6 from "../../assets/weather app.jpeg";
 import IMG7 from "../../assets/Nightin.jpeg";
 import IMG8 from "../../assets/Natours.jpeg";
 import IMG9 from "../../assets/Trillo.jpeg";
+import IMG10 from "../../assets/smefintech-logo.png";
 
 const data = [
   {
@@ -83,6 +84,15 @@ const data = [
     github: "https://github.com/Mureithi820/Trillo",
     demo: "https://darling-entremet-0e38f3.netlify.app/",
     brief: "https://github.com/Mureithi820/Trillo/blob/main/README.md",
+  },
+  {
+    id: 10,
+    image: IMG10,
+    title: "SMEFinTech ",
+    github: "https://github.com/Mureithi820/smefintech-landing",
+    demo: "https://smefintech.co.ke/",
+    brief:
+      "https://github.com/Mureithi820/smefintech-landing/blob/main/README.md",
   },
 ];
 
