@@ -15,54 +15,50 @@ const About = () => {
           <div className="about__me-image">
             <img src={profile_picture} alt="About Victor" />
           </div>
-          {/* <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={profile_picture} alt="About Victor" />
-          </div> */}
         </div>
+
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>
-                6 Months + <br /> Developer Experience
-              </small>
+              <small>1+ Year of Development Experience</small>
             </article>
+
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Education</h5>
               <small>B.Sc. Information Technology</small>
             </article>
+
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>
-                3+ Completed
-                <br />
-                and Counting
-              </small>
+              <small>10+ Completed & Counting</small>
             </article>
           </div>
+
           <p>
-            I'm a recent graduate with a freshly acquired degree in Engineering.
-            Throughout my academic journey, I've delved into various facets of
-            problem-solving and honed my analytical skills.
+            I'm a passionate Software Developer and Founder of{" "}
+            <strong>SMEFinTech</strong>, a startup dedicated to empowering small
+            and medium businesses through innovative financial solutions. With
+            over a year of hands-on experience building web applications and
+            solving real-world problems, I specialize in creating scalable,
+            user-focused solutions that drive impact.
           </p>
           <p>
-            While navigating the academic landscape, I've explored diverse
-            subjects and cultivated a strong foundation. Now, I'm eager to apply
-            my theoretical knowledge to real-world scenarios and embark on a
-            journey of practical learning.
+            My journey began with a strong academic foundation in Information
+            Technology, and since then, I've worked on diverse projects ranging
+            from web platforms to fintech integrations. I thrive on challenges
+            and continuously push myself to learn, innovate, and deliver.
           </p>
           <p>
-            With a keen interest in technology and a hunger for continuous
-            improvement, I'm excited to embrace new challenges and carve out a
-            path in the dynamic field of IT. As I step into the professional
-            world, I'm ready to leverage my education and embark on a rewarding
-            career journey.
+            Beyond coding, I'm deeply committed to leveraging technology to
+            create opportunities for businesses and communities. My vision with
+            SMEFinTech is to make financial management seamless for SMEs in
+            Kenya and beyond.
           </p>
+
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
