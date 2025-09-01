@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
@@ -6,21 +7,24 @@ import { BsLinkedin } from "react-icons/bs";
 const Contact = () => {
   const [messageIsSent, setMessageIsSent] = useState(false);
 
-  const sendMessage = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    const form = e.target;
 
-    const { name, message } = e.target.elements;
+    try {
+      await emailjs.sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      );
 
-    const whatsappLink = `https://wa.me/254113445466?text=Name:%20${name.value}%0AMessage:%20${message.value}`;
-
-    const whatsappWindow = window.open(whatsappLink, "_blank");
-
-    const checkWindowClosed = setInterval(() => {
-      if (whatsappWindow.closed) {
-        clearInterval(checkWindowClosed);
-        setMessageIsSent(true);
-      }
-    }, 1000);
+      setMessageIsSent(true);
+      form.reset();
+    } catch (error) {
+      console.error("Email sending error:", error);
+      alert("Failed to send. Please try again later.");
+    }
   };
 
   return (
@@ -44,13 +48,12 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        {/* END OF CONTACT OPTIONS */}
         {messageIsSent ? (
           <h2 id="Contact__sent-message">
             Your Message was successfully sent!
           </h2>
         ) : (
-          <form onSubmit={sendMessage}>
+          <form onSubmit={handleSubmit}>
             <input
               type="text"
               name="name"
